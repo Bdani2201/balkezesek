@@ -43,6 +43,13 @@ namespace balkezesek
             int adatokszama = adatok.Count;
             //3
             Console.WriteLine("3. feladat: {0}", adatokszama);
+                        
+            //4
+            Console.WriteLine("4. feladat:");
+            for (i = 0; i < adatokszama; i++)
+                if (adatok[i].Utolso.Year == 1999 && adatok[i].Utolso.Month == 10)
+                    Console.WriteLine("\t{0}, {1} cm", adatok[i].Nev, Math.Round(adatok[i].Magassag * 2.54, 1));
+
             
 
             
