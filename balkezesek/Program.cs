@@ -41,7 +41,8 @@ namespace balkezesek
             }
             int i, j;
             int adatokszama = adatok.Count;
-           
+            //3
+            Console.WriteLine("3. feladat: {0}", adatokszama);
             
 
             
